@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+*.log
+
+# Node/Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local data / secrets
+*.db
+*.sqlite*
+.env
+backend/.env
+backend/*.env
+data/
+
+# Build artifacts
+*.tar
+*.zip
+*.gz
